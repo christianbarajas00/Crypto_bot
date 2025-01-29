@@ -1,0 +1,17 @@
+{
+    "dex_api_url": "https://api.dexscreener.com/latest/dex/tokens/",
+    "rugcheck_api_url": "https://rugcheck.xyz/api",  
+    "database_name": "crypto_data.db",
+    "telegram_bot_token": "7466821384:AAFvC7QEswFTmWYvPshwlK9TNx_kEUoroEo",
+    "telegram_chat_id": "5781803396",
+    "bonkbot_api_key": "YOUR_BONKBOT_API_KEY",
+    "filters": {
+      "min_volume": 100000,
+      "min_liquidity": 50000,
+      "max_token_age_days": 30
+    },
+    "blacklist": {
+      "tokens": ["0xScamToken1", "0xScamToken2"],
+      "developers": ["0xRugDev1", "0xRugDev2"]
+    }
+  }
